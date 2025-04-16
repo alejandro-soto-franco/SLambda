@@ -1,0 +1,43 @@
+{
+  "folders": [
+    {
+      "name": "SΛ Root",
+      "path": "."
+    },
+    {
+      "name": "core-lean",
+      "path": "core-lean"
+    },
+    {
+      "name": "core-rust",
+      "path": "core-rust"
+    }
+  ],
+  "settings": {
+    "editor.formatOnSave": true,
+    "lean4.memoryLimit": 8192,
+    "lean4.enableLinting": true,
+    "lean4.mcp.enabled": true,
+    "lean4.mcp.configPath": "${workspaceFolder}/.mcp/config.json",
+    "rust-analyzer.checkOnSave.command": "clippy",
+    "rust-analyzer.inlayHints.enable": true,
+    "files.associations": {
+      "*.lean": "lean4"
+    },
+    "files.exclude": {
+      "**/.git": true,
+      "**/.DS_Store": true,
+      "**/Thumbs.db": true,
+      "**/.lake": true
+    }
+  },
+  "extensions": {
+    "recommendations": [
+      "leanprover.lean4",
+      "rust-lang.rust-analyzer",
+      "tamasfe.even-better-toml",
+      "serayuzgur.crates",
+      "ooo0ooo.lean-lsp-mcp"
+    ]
+  }
+}

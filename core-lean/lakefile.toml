@@ -1,0 +1,11 @@
+name = "core-lean"
+
+[lean]
+path = "."
+
+[[lean_lib]]
+name = "CoreLean"
+
+[[lean_exe]]
+name = "main"
+root = "Main"
